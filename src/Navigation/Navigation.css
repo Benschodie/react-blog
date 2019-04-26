@@ -1,0 +1,23 @@
+:root {
+  --navigation-bg-color: #a19d77;
+  --navigation-color: #2a2b24;
+  --navigation-hover: #fff;
+}
+
+.Navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--navigation-bg-color);
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.Navigation a {
+  color: var(--navigation-color) !important;
+  text-decoration: none;
+}
+
+.Navigation a:hover {
+  color: var(--navigation-hover) !important;
+}
